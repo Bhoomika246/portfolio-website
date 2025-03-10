@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cute Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        
+        .header {
+            background-color: #ff9ecf;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .bio-section {
+            display: flex;
+            align-items: center;
+            margin: 40px 0;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+        
+        .profile-image {
+            width: 250px;
+            height: 250px;
+            border-radius: 15px;
+            object-fit: cover;
+            margin-right: 40px;
+        }
+        
+        .bio-details {
+            flex: 1;
+        }
+        
+        .bio-details h2 {
+            color: #ff6bb3;
+            margin-top: 0;
+        }
+        
+        .bio-details p {
+            color: #777;
+            line-height: 1.5;
+        }
+        
+        .job-title {
+            font-size: 20px;
+            color: #ff9ecf;
+            margin-bottom: 20px;
+        }
+        
+        h3 {
+            color: #ff6bb3;
+            margin: 30px 0 20px;
+            text-align: center;
+        }
+        
+        .projects {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .project {
+            width: 48%;
+            margin-bottom: 20px;
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .project:hover {
+            transform: translateY(-5px);
+        }
+        
+        .project img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .project p {
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+            color: #555;
+        }
+        
+        .contact {
+            text-align: center;
+            margin-top: 40px;
+            padding: 30px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .contact p {
+            font-size: 20px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: #ff6bb3;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        .btn:hover {
+            background-color: #ff4da1;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Welcome to My Cute Portfolio</div>
+    <div class="container">
+        <div class="bio-section">
+            <img src="profile.jpg.jpg" alt="Profile Picture" class="profile-image">
+            <div class="bio-details">
+                <h2>Hello, I'm [Bhoomika]</h2>
+                <p class="job-title">Creative Developer & Designer</p>
+                <p>I'm passionate about creating beautiful and functional websites. With expertise in HTML, CSS, and JavaScript, I bring creative ideas to life through code.</p>
+                <p> I specialize in responsive design and user-friendly interfaces that make a lasting impression.</p>
+            </div>
+        </div>
+        
+        <h3>My Projects</h3>
+        <div class="projects">
+            <div class="project">
+                <img src="https://static.vecteezy.com/system/resources/previews/000/245/385/original/weather-app-screen-interface-vector.jpg" alt="Project 1">
+                <p>Project 1</p>
+            </div>
+            <div class="project">
+                <img src="https://th.bing.com/th/id/OIP.LxLOW97gJ2JCbxOgJoueVQHaFb?rs=1&pid=ImgDetMainalt="Project 2">
+                <p>Project 2</p>
+            </div>
+        </div>
+        
+        <div class="contact">
+            <p>Let's connect!</p>
+            <a href="bhoomikapoojary860@gmail.com" class="btn">Email Me</a>
+        </div>
+    </div>
+</body>
+</html>
